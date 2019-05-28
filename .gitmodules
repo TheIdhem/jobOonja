@@ -1,0 +1,6 @@
+[submodule "jobonja"]
+	path = jobonja
+	url = https://gitlab.com/the_idhem/jobonja.git
+[submodule "job-oonja"]
+	path = job-oonja
+	url = https://gitlab.com/the_idhem/job-oonja.git

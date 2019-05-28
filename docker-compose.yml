@@ -1,0 +1,15 @@
+version: '3'
+services:
+  joboonja-back:
+    build: ./jobonja
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./jobonja/db:/db
+    privileged: true
+
+  joboonja-front:
+    build: ./job-oonja
+    ports:
+      - "3000:3000"
+    privileged: true
